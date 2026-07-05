@@ -8,11 +8,15 @@ Beyond just returning a prediction, the app integrates **SHAP (SHapley Additive 
 ## Tech Stack
 
 **Backend:** Python, Flask
+
 **Machine Learning:** CatBoost, SHAP, scikit-learn, SMOTE (imbalanced-learn), NumPy
+
 **Visualization:** Matplotlib
+
 **Model Persistence:** Joblib
+
 **Frontend:** HTML, Bootstrap
-**Deployment:** Render
+
 
 ### Prerequisites
 - Python 3.8+
