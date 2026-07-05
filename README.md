@@ -1,4 +1,18 @@
 
+## About
+
+A machine learning-powered web application that assesses diabetes risk from key health parameters, built with a focus on both predictive accuracy and interpretability. The system uses a **CatBoost** classifier — selected after comparative evaluation against multiple models for its superior recall and F1-score — trained on the Pima Indians Diabetes dataset, with **SMOTE** applied to address class imbalance.
+
+Beyond just returning a prediction, the app integrates **SHAP (SHapley Additive exPlanations)** to generate a visual, feature-level breakdown of *why* the model arrived at its result, making the prediction transparent rather than a black box. Input validation and median-based imputation (for zero/missing clinical values like Glucose, BMI, and Blood Pressure) ensure realistic, clinically sound predictions. Confidence-based messaging further guides users on when a result may warrant professional consultation.
+
+## Tech Stack
+
+**Backend:** Python, Flask
+**Machine Learning:** CatBoost, SHAP, scikit-learn, SMOTE (imbalanced-learn), NumPy
+**Visualization:** Matplotlib
+**Model Persistence:** Joblib
+**Frontend:** HTML, Bootstrap
+**Deployment:** Render
 
 ### Prerequisites
 - Python 3.8+
