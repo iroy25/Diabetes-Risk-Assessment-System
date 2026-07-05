@@ -46,6 +46,15 @@ Visit `http://127.0.0.1:5000` in your browser.
 5. SHAP TreeExplainer computes feature-level contributions
 6. A force plot is rendered, encoded to base64, and displayed alongside the prediction
 
+## Screenshots
+
+<img width="1477" height="857" alt="Screenshot 2026-07-05 192147" src="https://github.com/user-attachments/assets/a6c5b740-36a0-48b5-a02b-1b3ddb65d5f1" />
+<img width="1476" height="842" alt="Screenshot 2026-07-05 192158" src="https://github.com/user-attachments/assets/d2ab8b17-ce43-4ed9-9519-d06a49dd3e02" />
+<img width="1378" height="647" alt="Screenshot 2026-07-05 192229" src="https://github.com/user-attachments/assets/bc45d378-258f-4b4c-ae82-830947fa1784" />
+
+
+
+
 ## ⚠️ Disclaimer
 
 This tool is intended for educational and demonstrative purposes only. It is **not** a substitute for professional medical diagnosis. Predictions — especially borderline ones — should always be followed up with clinical consultation.
