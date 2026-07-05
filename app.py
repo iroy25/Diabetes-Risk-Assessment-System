@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import shap
 import matplotlib
-matplotlib.use('Agg')  # non-interactive backend, must be before pyplot import
+matplotlib.use('Agg')  
 import matplotlib.pyplot as plt
 import base64
 import io
@@ -65,7 +65,7 @@ def predict():
         if not (0.078 <= dpf      <= 2.42): raise ValueError("Diabetes Pedigree Function must be between 0.078 and 2.42.")
         if not (21 <= age         <= 81):   raise ValueError("Age must be between 21 and 81.")
 
-        # Median imputation (mirrors preprocessing.pkl)
+       
         if glucose  == 0: glucose  = medians["Glucose"]
         if bp       == 0: bp       = medians["BloodPressure"]
         if skin     == 0: skin     = medians["SkinThickness"]
